@@ -1,0 +1,19 @@
+We, a consortium of node implementations, infrastructure providers, services, engineers, and stakeholders, have collaborated extensively to reach our shared goal of stabilizing block confirmation times. We will deploy the aserti3-2d difficulty adjustment algorithm (ASERT DAA) on Bitcoin Cash (BCH) on November 15th, 2020, as designed by Mark Lundeberg and implemented by Jonathan Toomim alongside other accredited contributors of the ecosystem.
+
+The aserti3-2d DAA is simple to implement, well-tested, and extensively simulated. It incentivizes consistent mining, achieves stability for transaction confirmations with low-variance 10 minute block targets, and is resistant to future drift.
+
+This upgrade is the next step on the path of scaling Bitcoin Cash to be global, censorship-resistant, peer-to-peer electronic cash.
+
+==============
+
+03.08.2020 - The Bitcoin Cash (BCH) network will have an upgrade in November 2020. One outstanding issue is the need for improvement of the Difficulty Adjustment Algorithm (DAA). The well tested "aserti3-2d" proposal made by Jonathan Toomim solves the DAA issues in an elegant manner. Jonathan Toomim has provided extensive simulation data and code, and these have been peer reviewed by multiple Bitcoin Cash node implementations as well as outside experts. Jonathan Toomim has also written and submitted the aserti3-2d code to Bitcoin ABC, and had public and private discussions with them regarding it.
+
+Shortly after the proposal by Jonathan Toomim, Amaury Séchet created and committed Bitcoin ABC to a new DAA proposal called Grasberg. Unlike aserti3-2d algorithm, the Grasberg algorithm has not gone through peer review by most of the Bitcoin Cash node implementations nor has Bitcoin ABC provided more than cursory data to support it. Furthermore, the Grasberg algorithm changes the block time from 10 minutes to a variable number more than 11 minutes. The newly introduced slow blocks have never been requested by anyone in the past and they will cause a worse user experience for all users. Confirmations will take longer. Smart contracts depending on the long term standard of 10 minute blocks will be broken. All infrastructure that needs to be aware of DAA will have to validate against a complicated set of rules. Stakeholders in general will have increased doubt that other fundamental aspects of Bitcoin Cash may face arbitrary changes in the future. At the highest level, the slow blocks introduced by Grasberg algorithm reduce the profitability of Bitcoin Cash miners and the security of the Bitcoin Cash blockchain.  
+
+Joint Statement  
+
+We are a group of BCH centric companies and entrepreneurs that have come together to release a joint statement concerning the DAA. We stand together in strong preference of Jonathan Toomim's well evidenced and focused aserti3-2d proposal. We firmly oppose Amaury Séchet's suboptimal and disruptive Grasberg proposal.
+
+==============
+
+For all of us to be able to grow together, I join this statement as a simple crypto enthusiast, to plead and call for ABC to learn for their mistakes.
